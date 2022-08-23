@@ -9,7 +9,7 @@ app.get('/', (req, res) => {
 })
 
 app.get('/:slug', checkIfExists, (req, res) => {
-  res.json(req.associations)
+  res.json(req.association)
 })
 
 module.exports = app

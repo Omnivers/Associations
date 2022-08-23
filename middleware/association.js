@@ -1,6 +1,5 @@
 const associations = require('../associations')
 
-
 const checkIfExists = (req, res, next) => {
   const { slug } = req.params
 
